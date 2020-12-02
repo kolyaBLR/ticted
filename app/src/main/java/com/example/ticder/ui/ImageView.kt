@@ -28,7 +28,7 @@ class ImageView @JvmOverloads constructor(
     var bitmap: Bitmap? = null
         set(value) {
             field = value
-            if (width > 0 && height > 0) {
+            if (width > 0 && height > 0 && field != null) {
                 calculateBitmap(width, height)
             }
         }
