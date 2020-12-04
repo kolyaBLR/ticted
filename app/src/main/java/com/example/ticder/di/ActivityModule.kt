@@ -29,8 +29,10 @@ class ActivityModule(private val activity: AppCompatActivity) {
     fun provideImages(): Data {
         return Data(
             listOf(
+                R.drawable.ic_baseline_5g_24,
+                R.drawable.ic_baseline_ac_unit_24,
                 R.drawable.ic_baseline_access_time_24,
-                R.drawable.ic_baseline_access_time_24
+                R.drawable.ic_baseline_android_24
             )
         )
     }

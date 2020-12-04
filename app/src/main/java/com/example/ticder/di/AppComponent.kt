@@ -1,6 +1,6 @@
 package com.example.ticder.di
 
-import com.example.ticder.MainActivity
+import com.example.ticder.ui.MainActivity
 import com.example.ticder.viewmodel.ImageViewModel
 import dagger.Component
 
